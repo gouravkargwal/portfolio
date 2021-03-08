@@ -545,6 +545,18 @@ z-index: -1;
     color: white;
     font-size: 1.3rem;
 }
+#view_counter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0);
+    color: white;
+    padding: 10px;
+}
+#view_counter p{
+    color: white;
+}
 
 /* Media Queries for Tablet Start*/
 @media only screen and (min-width:768px){
@@ -638,6 +650,18 @@ z-index: -1;
         text-align: left;
         padding-left: 20px;
     }
+    #view_counter{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(0, 0, 0);
+        color: white;
+        padding: 10px;
+    }
+    #view_counter p{
+        color: white;
+    }
     /* Contact End */
 }
 /* Media Queries for Tablet End*/
@@ -673,6 +697,18 @@ z-index: -1;
     height: 500px;
 }
     /* Service End*/
+    #view_counter{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(0, 0, 0);
+        color: white;
+        padding: 10px;
+    }
+    #view_counter p{
+        color: white;
+    }
 } 
 /* Media Queries for Desktop End*/
 @keyframes hamburger_plus{
