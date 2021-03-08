@@ -18,3 +18,12 @@ document.addEventListener("scroll", () => {
 
 const date = new Date();
 document.querySelector("#year").innerHTML = date.getFullYear();
+
+updateVisitCount()
+
+const countEl = document.querySelector("#count");
+function updateVisitCount() {
+    fetch("https://api.countapi.xyz/update/portfoliosite/count/?amount=1").then(res => res.json()).then(res => {
+        countEl.innerHTML = res.value;
+    })
+}
